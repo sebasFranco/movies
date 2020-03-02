@@ -1,7 +1,7 @@
 HELP.md
 .gradle
 build/
-!movies/gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**
 !**/src/test/**
 
@@ -15,7 +15,7 @@ build/
 .sts4-cache
 
 ### IntelliJ IDEA ###
-movies/.idea
+.idea
 *.iws
 *.iml
 *.ipr
