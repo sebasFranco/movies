@@ -24,6 +24,7 @@ ext {
 }
 
 dependencies {
+	runtime group: 'com.netflix.eureka', name: 'eureka-client', version: '1.9.18'
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
