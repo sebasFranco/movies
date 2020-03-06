@@ -1,8 +1,11 @@
 package com.ceiba.movies.aplication.caseuse;
 
+import org.springframework.stereotype.Service;
+
 import com.ceiba.movies.domain.model.Movie;
 import com.ceiba.movies.domain.ports.MovieRepository;
 
+@Service
 public class FindMovieByIdService {
 
 	private MovieRepository movieRepository;
