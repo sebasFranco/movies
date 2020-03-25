@@ -5,12 +5,14 @@ public class Movie {
 	private Long id;
 	private String title;
 	private String synopsis;
+	private Long userId;
 
-	public Movie(Long id, String title, String synopsis) {
+	public Movie(Long id, String title, String synopsis, Long userId) {
 		super();
 		this.id = id;
 		this.title = title;
 		this.synopsis = synopsis;
+		this.userId = userId;
 	}
 
 	public Long getId() {
@@ -35,6 +37,14 @@ public class Movie {
 
 	public void setSynopsis(String synopsis) {
 		this.synopsis = synopsis;
+	}
+
+	public Long getUserId() {
+		return userId;
+	}
+
+	public void setUserId(Long userId) {
+		this.userId = userId;
 	}
 
 }

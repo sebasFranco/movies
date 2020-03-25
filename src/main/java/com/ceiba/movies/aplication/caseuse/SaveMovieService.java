@@ -16,7 +16,7 @@ public class SaveMovieService {
 	}
 	
 	public Movie saveMovie(MovieCommand movieCommand) {
-		Movie movie = new Movie(movieCommand.getId(), movieCommand.getTitle(), movieCommand.getSynopsis());
+		Movie movie = new Movie(movieCommand.getId(), movieCommand.getTitle(), movieCommand.getSynopsis(),movieCommand.getUserId());
 		movieRepository.saveMovie(movie);
 		return movie;
 	}
